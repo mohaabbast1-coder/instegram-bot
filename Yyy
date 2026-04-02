@@ -1,0 +1,18 @@
+# اذهب لمجلد المشروع
+cd Desktop/instagram-bot
+
+# تهيئة Git
+git init
+
+# إضافة جميع الملفات
+git add .
+
+# عمل commit
+git commit -m "Instagram bot for il20.0i"
+
+# ربط بالمستودع (استبدل USERNAME باسمك)
+git remote add origin https://github.com/USERNAME/instagram-bot.git
+
+# رفع الملفات
+git branch -M main
+git push -u origin main
